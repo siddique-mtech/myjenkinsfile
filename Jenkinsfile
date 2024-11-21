@@ -33,6 +33,7 @@ pipeline {
     parameters{
      string(name: 'script_name', defaultValue: "shop.py", description: 'just for test')
      string(name: 'env_name', defaultValue: "STG", description: 'just for test')
+     string(name: 'mark', defaultValue: "100", description: 'just for test')
     }
     
     stages {
